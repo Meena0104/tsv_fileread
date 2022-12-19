@@ -1,8 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[33]:
-
 
 # read the tsv file
 lines = [line for line in open('bench-10x10.tsv')]
@@ -25,9 +23,6 @@ sorted_list=sorted(last_column)
 print(sorted_list)
 
 
-# In[36]:
-
-
 # A compact notation with less memory
 
 # read the tsv file
@@ -43,10 +38,3 @@ for row in range(1,len(lines)):
 sorted_list=sorted(last_column)
 
 print(sorted_list)
-
-
-# In[ ]:
-
-
-
-
